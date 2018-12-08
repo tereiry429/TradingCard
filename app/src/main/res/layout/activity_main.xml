@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#82b1ff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/miikun" />
+
+
+    <TextView
+        android:id="@+id/top_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="364dp"
+        android:background="#82b1ff"
+        android:text="Mii-Kun"
+        android:textColor="#ffffff"
+        android:textSize="35dp" />
+
+
+    <TextView
+        android:id="@+id/weight_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#82b1ff"
+        android:paddingBottom="2dp"
+        android:text="Weaknesses: Cucumbers, Jealousy, Dehydration, Shy, Sora"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/height_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/weight_text_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="#82b1ff"
+        android:padding="2dp"
+        android:text="Strengths: Mummy, Small, Hard Worker, Friendly, Kind, Cute, Helpful, Dirt Healing"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+
+
+
+
+</RelativeLayout>
+
